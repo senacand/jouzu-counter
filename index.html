@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihongo Jouzu Desu Ne Counter 🎌</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">
+                <span class="japanese">日本語上手ですね</span>
+                <span class="english">Counter</span>
+                <span class="emoji">🎌</span>
+            </h1>
+            <p class="subtitle">Days since someone last told me my Japanese is "good"</p>
+        </header>
+
+        <main class="main">
+            <div class="counter-section">
+                <div class="counter-card">
+                    <div class="counter-number" id="dayCounter">
+                        <span class="number">0</span>
+                        <span class="label">days</span>
+                    </div>
+                    <div class="last-encounter" id="lastEncounter">
+                        <p class="last-text">Last encounter:</p>
+                        <p class="last-description" id="lastDescription">Loading...</p>
+                        <p class="last-date" id="lastDate">Loading...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="encounters-section">
+                <h2 class="encounters-title">
+                    <span>Encounters</span>
+                    <span class="encounter-emoji">😅</span>
+                </h2>
+                <div class="encounters-list" id="encountersList">
+                    <!-- Encounters will be loaded here -->
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>
+                <span class="footer-text">Every time someone says this, a weeb gets their wings</span>
+                <span class="wings">👼</span>
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
