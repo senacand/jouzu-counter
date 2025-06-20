@@ -1,15 +1,6 @@
 # Nihongo Jouzu Desu Ne Counter 🎌
 
-A fun, light-hearted website that counts the days since someone last told you "nihongo jouzu desu ne" (your Japanese is good/skilled). Perfect for anyone learning Japanese who gets tired of hearing this phrase!
-
-## Features
-
-- **Live Counter**: Displays days since the last encounter
-- **Encounter History**: Shows all previous encounters with dates and descriptions
-- **Fancy Design**: Modern, animated UI with gradients and smooth transitions
-- **Responsive**: Works on desktop, tablet, and mobile
-- **Easter Eggs**: Hidden surprises for curious users! 🥚
-- **Auto-updating**: Counter updates automatically at midnight
+A fun, light-hearted website that counts the days since someone last told me "nihongo jouzu desu ne".
 
 ## How to Use
 
@@ -45,7 +36,7 @@ Edit the `config.json` file to add your own encounters:
 
 - `index.html` - Main website
 - `style.css` - Fancy styling and animations
-- `script.js` - JavaScript functionality
+- `script.js` - JavaScript functionality  
 - `config.json` - Your encounter data
 
 ## Adding New Encounters
